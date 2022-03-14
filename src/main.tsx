@@ -14,5 +14,5 @@ ReactDOM.render(
       <App />
     </BrowserRouter>
   </StrictMode>,
-  rootElement
+  rootElement,
 );

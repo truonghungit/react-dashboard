@@ -1,13 +1,15 @@
 import { Outlet } from 'react-router-dom';
 
-import Topbar from '../components/Topbar/Topbar';
+import SideBar from './components/SideBar/SideBar';
+import TopBar from './components/TopBar/TopBar';
 
 export default function PortalLayout() {
   return (
     <div>
       <div>DefaultPortalLayout</div>
       <div>
-        <Topbar />
+        <TopBar />
+        <SideBar />
       </div>
       <Outlet />
     </div>
